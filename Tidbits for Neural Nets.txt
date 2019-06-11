@@ -1,0 +1,12 @@
+'''
+def Cost(proutput, out):
+    error = proutput-out
+    cost = (error)**2
+    return cost
+
+def num_slope(x, proutput):
+    h = 0.0000000000000000001
+    #The classic formula for finding the derivative of a number. ((f(x+h)-f(x))/h)
+    #In this case, that number(x) is the output, and the other number is the projected output
+    return (Cost(proutput, x+h)-Cost(proutput, x))/h
+'''
